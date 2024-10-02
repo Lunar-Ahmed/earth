@@ -122,3 +122,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+        # 'ENGINE': 'sql_server.pyodbc',
+        # 'NAME': 'your_database_name',
+        # 'USER': 'your_username',
+        # 'PASSWORD': 'your_password',
+        # 'HOST': 'your_server_name',
+        # 'PORT': '',
+        # 'OPTIONS': {
+        #     'driver': 'ODBC Driver 17 for SQL Server',
+        # },
